@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3c4b2d7-9721-4117-99e3-078402ba8249" name="Default Changelist" comment="" />
+    <list default="true" id="b3c4b2d7-9721-4117-99e3-078402ba8249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/less/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZQu8nt6wpYJoaq3zx8GLKHDmIQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +34,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/content" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/content" />
+      <recent name="$PROJECT_DIR$/static/images" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,11 +57,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584783481044</updated>
-      <workItem from="1584783489076" duration="2998000" />
+      <workItem from="1584783489076" duration="3421000" />
+      <workItem from="1584787937761" duration="889000" />
+      <workItem from="1584790185038" duration="491000" />
+      <workItem from="1584790691398" duration="920000" />
+      <workItem from="1584791656126" duration="15072000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="25" width="800" height="678" key="#Configure_Path_Variables" timestamp="1584790721837">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="25" width="800" height="678" key="#Configure_Path_Variables/0.0.1366.768@0.0.1366.768" timestamp="1584790721837" />
+    <state x="278" y="25" width="800" height="678" key="#Notifications" timestamp="1584791960918">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="25" width="800" height="678" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1584791960918" />
+    <state x="619" y="143" width="424" height="585" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584791575168">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="619" y="143" width="424" height="585" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.768@0.0.1366.768" timestamp="1584791575168" />
+    <state x="331" y="30" width="707" height="698" key="EditFileWatcherDialog" timestamp="1584791948129">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="331" y="30" width="707" height="698" key="EditFileWatcherDialog/0.0.1366.768@0.0.1366.768" timestamp="1584791948129" />
+    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl" timestamp="1584791375102">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584791375102" />
+    <state x="566" y="4" width="224" height="721" key="RollbackChangesDialog" timestamp="1584790075739">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="566" y="4" width="224" height="721" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584790075739" />
+    <state x="207" y="30" width="977" height="731" key="SettingsEditor" timestamp="1584792637213">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="207" y="30" width="977" height="731" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584792637213" />
+    <state x="377" y="100" width="611" height="528" key="find.popup" timestamp="1584791608209">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="377" y="100" width="611" height="528" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1584791608209" />
   </component>
 </project>

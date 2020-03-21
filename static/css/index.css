@@ -1,0 +1,255 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* SIGNIKA */
+/* -------------------- */
+/* latin-ext */
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Signika Regular'), local('Signika-Regular'), url(https://fonts.gstatic.com/s/signika/v10/vEFR2_JTCgwQ5ejvG18mBkho.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Signika Regular'), local('Signika-Regular'), url(https://fonts.gstatic.com/s/signika/v10/vEFR2_JTCgwQ5ejvG1EmBg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* COMING SOON */
+/* ---------------------- */
+/* latin */
+@font-face {
+  font-family: 'Coming Soon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Coming Soon Regular'), local('ComingSoon-Regular'), url(https://fonts.gstatic.com/s/comingsoon/v11/qWcuB6mzpYL7AJ2VfdQR1t-VWDk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* HEADER */
+/* ------------------------ */
+/* FONTS */
+/* ----------------------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 80px;
+  background: hsla(0, 0%, 96%, 0.95);
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  max-width: 230px;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  font-family: 'Signika';
+}
+header nav a {
+  display: inline-block;
+  line-height: 1.5;
+  color: #252321;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header nav a:hover {
+  color: #39569c;
+}
+header nav a:active,
+header nav a:focus {
+  color: #39569c;
+}
+.banner {
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+  min-height: 470px;
+  background: url('../images/banner.jpg');
+  background-position: center;
+  background-size: inherit;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner:before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  content: '';
+}
+.banner:after {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  padding: 10px 50px;
+  color: #ffffff;
+  font-family: 'Coming Soon';
+  font-size: 4.5rem;
+  content: '"Hi, My name is Judd!"';
+}
+.row {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px 10px;
+}
+.label {
+  line-height: 120px;
+  text-align: center;
+}
+.label span {
+  display: inline-block;
+  color: #252321;
+  font-family: 'Signika';
+  font-size: 2rem;
+  vertical-align: middle;
+}
+.label span:before {
+  display: inline-block;
+  margin: 0 20px 5px 0;
+  width: 150px;
+  height: 3px;
+  background: #252321;
+  content: '';
+}
+.label span:after {
+  display: inline-block;
+  margin: 0 0 5px 20px;
+  width: 150px;
+  height: 3px;
+  background: #252321;
+  content: '';
+}
+.column-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.column-wrapper .column {
+  display: inline-block;
+  max-width: 500px;
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+}
+.column-wrapper .column img {
+  max-width: 300px;
+  float: right;
+}
+.column-wrapper .column span {
+  display: block;
+}
+.column-wrapper .column p {
+  color: #414141;
+  font-size: 16px;
+  font-family: 'Signika';
+}
+.column-wrapper .column .title {
+  margin-bottom: 15px;
+  color: #39569c;
+  font-family: 'Signika';
+  font-size: 20px;
+}
+.column-wrapper .column .position {
+  margin-bottom: 5px;
+  color: #4cbb17;
+  font-family: 'Signika';
+  font-weight: bold;
+  font-size: 18px;
+}
+.column-wrapper .column .location {
+  margin-bottom: 20px;
+  color: #252321;
+  font-family: 'Signika';
+  font-weight: bold;
+  font-size: 18px;
+}
+.column-wrapper .left {
+  padding: 20px;
+}

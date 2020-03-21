@@ -1,10 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
 </head>
 <body>
-    <p>Hello World</p>
+    <header>
+        <nav>
+            <a href="" title="Home">Home</a>
+            <a href="" title="Blog">Blog</a>
+        </nav>
+    </header>
+    <div class="banner"></div>
+    <main>
+        <div class="row label">
+            <span>Here's what I've done so far</span>
+        </div>
+        <div class="row content">
+            <div class="column-wrapper">
+                <div class="column left">
+                    <img src="{% static 'images/content/lds.png' %}"/>
+                </div>
+                <div class="column">
+                    <span class="title">The Church of Jesus Christ of Latter Day Saints</span>
+                    <span class="position">Full-time Missionary, 2017 - 2019 </span>
+                    <span class="location">Mesa, AZ</span>
+                    <p>
+                        Served as a full-time missionary for The Church of Jesus Christ of Latter Day Saints in Mesa, Arizona for 2 full years
+                        . Throughout my entire
+                        service I have learned how to be nice and respect people as they are. Also it honed and polished my English speaking skills as
+                        it was the language spoken by the people.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row content">
+            <div class="column-wrapper">
+                <div class="column left">
+                    <img src="{% static 'images/content/gogreen.png' %}"/>
+                </div>
+                <div class="column">
+                    <span class="title">G.O Green Enterprises Inc.</span>
+                    <span class="position">Photo Editor, 2016 </span>
+                    <span class="location">Bacolod City, Philippines</span>
+                    <p>
+                        Served as a full-time missionary for The Church of Jesus Christ of Latter Day Saints in Mesa, Arizona for 2 full years
+                        . Throughout my entire
+                        service I have learned how to be nice and respect people as they are. Also it honed and polished my English speaking skills as
+                        it was the language spoken by the people.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row content">
+            <div class="column-wrapper">
+                <div class="column left">
+                    <img src="{% static 'images/content/la-salle.png' %}"/>
+                </div>
+                <div class="column">
+                    <span class="title">University of St. La Salle - Bacolod</span>
+                    <span class="position">Student, 2012 - 2016 </span>
+                    <span class="location">Bacolod City, Philippines</span>
+                    <p>
+                        Served as a full-time missionary for The Church of Jesus Christ of Latter Day Saints in Mesa, Arizona for 2 full years
+                        . Throughout my entire
+                        service I have learned how to be nice and respect people as they are. Also it honed and polished my English speaking skills as
+                        it was the language spoken by the people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
