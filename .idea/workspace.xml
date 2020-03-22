@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c4b2d7-9721-4117-99e3-078402ba8249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/less/color.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/less/color.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/less/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -38,11 +38,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/technology" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/technology" />
       <recent name="$PROJECT_DIR$/static/images/content" />
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
@@ -61,7 +62,8 @@
       <workItem from="1584787937761" duration="889000" />
       <workItem from="1584790185038" duration="491000" />
       <workItem from="1584790691398" duration="920000" />
-      <workItem from="1584791656126" duration="15072000" />
+      <workItem from="1584791656126" duration="15410000" />
+      <workItem from="1584845254829" duration="3943000" />
     </task>
     <servers />
   </component>
