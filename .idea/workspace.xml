@@ -44,6 +44,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images/technology" />
+      <recent name="$PROJECT_DIR$/static/images/contact" />
+      <recent name="$PROJECT_DIR$/static/images/gallery" />
       <recent name="$PROJECT_DIR$/static/images/content" />
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
@@ -63,7 +65,8 @@
       <workItem from="1584790185038" duration="491000" />
       <workItem from="1584790691398" duration="920000" />
       <workItem from="1584791656126" duration="15410000" />
-      <workItem from="1584845254829" duration="3943000" />
+      <workItem from="1584845254829" duration="6036000" />
+      <workItem from="1585370479263" duration="12309000" />
     </task>
     <servers />
   </component>
@@ -97,10 +100,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="331" y="30" width="707" height="698" key="EditFileWatcherDialog/0.0.1366.768@0.0.1366.768" timestamp="1584791948129" />
-    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl" timestamp="1584791375102">
+    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl" timestamp="1584851412706">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584791375102" />
+    <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584851412706" />
     <state x="566" y="4" width="224" height="721" key="RollbackChangesDialog" timestamp="1584790075739">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

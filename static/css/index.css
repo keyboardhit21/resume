@@ -97,6 +97,7 @@
 /* FONTS */
 /* ----------------------- */
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -191,7 +192,7 @@ header nav a:focus {
 .label span:before {
   display: inline-block;
   margin: 0 20px 5px 0;
-  width: 150px;
+  width: 100px;
   height: 3px;
   background: #252321;
   content: '';
@@ -199,10 +200,16 @@ header nav a:focus {
 .label span:after {
   display: inline-block;
   margin: 0 0 5px 20px;
-  width: 150px;
+  width: 100px;
   height: 3px;
   background: #252321;
   content: '';
+}
+.label p {
+  color: #414141;
+  text-align: center;
+  font-family: 'Signika';
+  font-size: 1.4rem;
 }
 .column-wrapper {
   display: flex;
@@ -274,9 +281,97 @@ header nav a:focus {
 }
 .technology-wrapper img {
   max-width: 100px;
-  margin: 50px;
+  margin: 40px;
   filter: grayscale(100%);
 }
 .technology-wrapper img:hover {
   filter: grayscale(0);
+}
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.gallery .item {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  font-size: 0;
+}
+.gallery .item img {
+  max-height: 250px;
+  filter: grayscale(100%);
+}
+.gallery .item p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50px;
+  padding-top: 10px;
+  background: hsla(0, 0%, 0%, 0.6);
+  color: #ffffff;
+  font-family: 'Signika';
+  font-size: 1.2rem;
+  text-align: center;
+}
+.gallery .item:hover img {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.gallery .item:hover p {
+  display: block;
+  padding-top: 10px;
+}
+.mantra {
+  background: #767069;
+}
+.mantra p {
+  color: #ffffff;
+  font-family: 'Signika';
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.8;
+}
+footer .label {
+  line-height: 2;
+}
+footer .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 0 auto;
+}
+footer .contact .item {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100px;
+  height: 100px;
+}
+footer .contact .item img {
+  max-width: 100px;
+  vertical-align: middle;
+}
+footer .contact .item a {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+footer .contact .item:hover img {
+  transition-duration: 0.3s;
+  filter: saturate(2);
+  transform: scale(1.1);
 }
