@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +9,8 @@
 <body>
     <header>
         <nav>
-            <a href="" title="Home">Home</a>
-            <a href="" title="Blog">Blog</a>
+            <a href="{% url 'home' %}" title="Home">Home</a>
+            <a href="{% url 'blog' %}" title="Blog">Blog</a>
         </nav>
     </header>
     <div class="banner"></div>
@@ -113,7 +112,7 @@
             </div>
         </div>
         <div class="row label">
-            <span>Here's a little peek in my life</span>
+            <span>Here's a little peek of my life</span>
         </div>
         <div class="row gallery">
             <div class="item">

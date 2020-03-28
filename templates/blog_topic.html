@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Topics</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}" title="Home">Home</a>
+            <a href="{% url 'blog' %}" title="Blog">Blog</a>
+        </nav>
+    </header>
+    <main>
+        {% for posts in blog %}
+            <li>{{ posts.title }}</li>
+            <p>
+                {{ posts.content|safe }}
+            </p>
+        {% endfor %}
+    </main>
+</body>
+</html>
