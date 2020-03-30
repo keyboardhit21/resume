@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog_topic.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog_view.css' %}"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'home' %}" title="Home">Home</a>
+            <a href="{% url 'blog' %}" title="Blog">Blog</a>
+        </nav>
+    </header>
+    <div class="banner" style="background-image: url('/{{blog.banner}}')"></div>
+    <main>
+        <p class="title">{{ blog.title }}</p>
+        <span class="date">{{ blog.date}}</span>
+        <div class="content">
+            {{ blog.content|safe }}
+        </div>
+    </main>
+</body>
+</html>

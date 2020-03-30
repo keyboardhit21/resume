@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c4b2d7-9721-4117-99e3-078402ba8249" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/resume/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resume/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog_topic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +40,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/technology" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static/images/technology" />
       <recent name="$PROJECT_DIR$/static/images/contact" />
       <recent name="$PROJECT_DIR$/static/images/gallery" />
       <recent name="$PROJECT_DIR$/static/images/content" />
-      <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,7 +68,9 @@
       <workItem from="1584790691398" duration="920000" />
       <workItem from="1584791656126" duration="15410000" />
       <workItem from="1584845254829" duration="6036000" />
-      <workItem from="1585370479263" duration="17311000" />
+      <workItem from="1585370479263" duration="19252000" />
+      <workItem from="1585529740689" duration="3139000" />
+      <workItem from="1585540838329" duration="5809000" />
     </task>
     <servers />
   </component>
@@ -99,9 +100,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="619" y="143" width="424" height="585" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.768@0.0.1366.768" timestamp="1584791575168" />
-    <state x="331" y="30" width="707" height="698" key="EditFileWatcherDialog" timestamp="1584791948129">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="331" y="28" width="707" height="664" key="EditFileWatcherDialog" timestamp="1585545861672">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="331" y="28" width="707" height="664" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1585545861672" />
     <state x="331" y="30" width="707" height="698" key="EditFileWatcherDialog/0.0.1366.768@0.0.1366.768" timestamp="1584791948129" />
     <state x="460" y="137" width="424" height="485" key="FileChooserDialogImpl" timestamp="1584851412706">
       <screen x="0" y="0" width="1366" height="768" />
@@ -111,10 +113,15 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="566" y="4" width="224" height="721" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584790075739" />
-    <state x="207" y="30" width="977" height="731" key="SettingsEditor" timestamp="1584792637213">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="207" y="0" width="977" height="728" key="SettingsEditor" timestamp="1585545864310">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="207" y="0" width="977" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585545864310" />
     <state x="207" y="30" width="977" height="731" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584792637213" />
+    <state x="347" y="16" width="662" height="696" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585531318996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="347" y="16" width="662" height="696" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1585531318996" />
     <state x="377" y="100" width="611" height="528" key="find.popup" timestamp="1584791608209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

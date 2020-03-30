@@ -5,6 +5,7 @@
     <title>Blog Topics</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog_topic.css' %}"/>
 </head>
 <body>
     <header>
@@ -13,12 +14,20 @@
             <a href="{% url 'blog' %}" title="Blog">Blog</a>
         </nav>
     </header>
+    <div class="banner"></div>
     <main>
         {% for posts in blog %}
-            <li>{{ posts.title }}</li>
-            <p>
-                {{ posts.content|safe }}
-            </p>
+            <div class="blog-item">
+                <img src="/{{posts.thumbnail}}"/>
+                <div class="content-wrapper">
+                    <p class="title">
+                        <a href="{% url 'blog_detail' posts.pk %}" title="{{ posts.title }}">{{ posts.title }}</a>
+                    </p>
+                    <span class="description">
+                        {{ posts.short_content }}...
+                    </span>
+                </div>
+            </div>
         {% endfor %}
     </main>
 </body>
